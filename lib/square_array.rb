@@ -7,3 +7,8 @@ def square_array(array)
  end
  return new_array
 end
+
+  while array[counter] do
+    puts array[counter]
+    counter += 1
+  end
