@@ -4,7 +4,7 @@ counter = 0
   while counter < array.length do
     mathing = numbers.pop
     mathing**
-    new_numbers.unshift(mathing)
+    new_numbers << mathing
     counter += 1
   end
   p new_numbers
