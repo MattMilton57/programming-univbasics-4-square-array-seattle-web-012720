@@ -1,11 +1,11 @@
 def square_array(numbers)
 counter = 0
- 
+ new_numbers[]
   while counter < array.length do
     mathing = numbers.pop
     mathing**
-    new_unmbers.unshift(mathing)
+    new_numbers.unshift(mathing)
     counter += 1
   end
-  p mathing
+  p new_numbers
 end
