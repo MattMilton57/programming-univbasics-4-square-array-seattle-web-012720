@@ -1,11 +1,5 @@
-def square_array(numbers)
-counter = 0
- new_numbers[]
-  while counter < array.length do
-    mathing = numbers.pop
-    mathing*mathing
-    new_numbers << mathing
-    counter += 1
-  end
-  p new_numbers
+def square_array(array)
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
